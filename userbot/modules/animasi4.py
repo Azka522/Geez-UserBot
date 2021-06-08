@@ -349,20 +349,17 @@ async def koc(e):
         await e.edit("`GABUT`")
 
 
-@register(outgoing=True, pattern='^.sangean(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ange(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Kalo Sange Modal`")
+    await typew.edit("`Ayang aku ange`")
     sleep(1)
-    await typew.edit("`Jangan Modal Kontol Doang`")
+    await typew.edit("`mau buat anak`")
     sleep(1)
-    await typew.edit("`Goblook Emang`")
+    await typew.edit("`mau ga?`")
     sleep(1)
-    await typew.edit("`Kelamaan Nge Jomblo Sih`")
+    await typew.edit("`klo gamau gpp`")
     sleep(1)
-    await typew.edit("`Jadinya Gitu, Sange Berat`")
-    sleep(1)
-    await typew.edit("`MAKANYA KALO HIDUP HARUS GANTENG KONTOOOLL`")
 # Create by myself @localheart
 
 
@@ -444,6 +441,6 @@ CMD_HELP.update({
     \n↳ : Mengirim cinta tai anjiing ke seseorang.\
     \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sayang`\
     \n↳ : Berubah menjadi kadal.\
-    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sangean`\
-    \n↳ : Kasih aja buat orang yang sangean."
+    \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ange`\
+    \n↳ : klo lu lgi sange."
 })
